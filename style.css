@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background: #7f8fa6;
+}
+main{
+    max-width: 400px;
+    margin: auto;
+
+}
+.task-input{
+    margin: 50px 0;
+}
+.task-input h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:maroon;
+
+}
+#new-task-input{
+    padding: 10px;
+    border: 1px solid #0097e6;
+    font-size: 18px;
+    width: 100%;
+}
+#new-task-submit{
+    padding: 10px;
+    border: none;
+    outline: none;
+    /* font-size: 10px; */
+    background-color: #0097e6;
+    color: white;
+    text-transform: uppercase;
+    font-size: bold;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.task-list h2{
+margin-bottom: 18px;
+color: white;
+font-size: 20px;
+
+}
+#tasks{
+    background-color: #467e9c;
+    padding: 20px;
+    border: 2px solid #e1b12c;
+    
+}
+.task{
+    margin-bottom: 20px;
+    background-color: #d6dcdd88;
+    padding: 10px;
+}
+.text{
+    background-color: transparent;
+    border: none;
+    color:white;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.edit, .delete, .complete{
+    padding: 12px 20px;
+    text-rendering: uppercase;
+    color: white;
+    background: #0097e6;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.delete{
+    background-color: rgb(201, 44, 44);
+    margin: 0 10px;
+}
+.complete{
+    background-color: #38c238;
+}
+.mark-completed{
+    text-decoration: line-through;
+    opacity: .5;
+
+}
